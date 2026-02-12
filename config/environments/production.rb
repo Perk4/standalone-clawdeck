@@ -81,6 +81,8 @@ Rails.application.configure do
 
   # Allow Render and custom domain hosts
   config.hosts << "clawdeck.onrender.com"
+  config.hosts << "clawdeck-lqis.onrender.com"
+  config.hosts << ".onrender.com"  # Allow all Render subdomains
   config.hosts << "app.clawdeck.io"
   config.hosts << ".clawdeck.io"  # Allow all subdomains
   
